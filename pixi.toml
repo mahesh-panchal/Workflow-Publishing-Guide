@@ -3,7 +3,7 @@
 [workspace]
 authors = ["Mahesh Binzer-Panchal <mahesh.binzer-panchal@nbis.se>"]
 channels = ["conda-forge", "bioconda"]
-name = "publishing-a-workflow"
+name = "Workflow Publishing Guide"
 description = "A guide to publishing a workflow"
 platforms = ["linux-64", "osx-arm64"]
 version = "1.0.0"
@@ -22,7 +22,7 @@ nextflow = ">=25.10.0,<26"
 
 # Documentation generation using Quarto
 [feature.docs.dependencies]
-quarto = "*"
+quarto = ">=1.8.26,<2"
 
 # Pixi supports multiple environments for different use cases
 # See https://pixi.sh/latest/workspace/multi_environment/
