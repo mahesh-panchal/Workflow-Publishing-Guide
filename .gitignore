@@ -6,6 +6,22 @@ work/
 results/
 .lineage/
 
+# nf-test files
+.nf-test.log
+.nf-test/
+
 # Pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Quarto files
+.quarto/
+_site/
+_book/
+**/.gitignore
+
+# misc
+.DS_Store
+.screenrc
+slurm*.out
+slurm*.err
