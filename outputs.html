@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Describe where to find the results, which files are important, and how to interpret them. If necessary, include case studies as subsections, or subpages.</p>
+<p><em>Describe where to find the results, which files are important, and how to interpret them. If necessary, include case studies as subsections, or subpages.</em></p>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <p>The results are stored in a dedicated directory on the <strong>[Storage Platform, e.g., Network Drive, S3 Bucket]</strong>.</p>
@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="important-files" class="level2">
 <h2 class="anchored" data-anchor-id="important-files">Important files</h2>
-<p>Describe which files the workflow user should focus on.</p>
+<p><em>Describe which files the workflow user should focus on.</em></p>
 <p>There are two primary files you need to review after every run.</p>
 <table class="caption-top table">
 <colgroup>
@@ -344,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

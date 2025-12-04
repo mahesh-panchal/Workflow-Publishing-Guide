@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page acts as a comprehensive reference on how to use your workflow. It describes the inputs to your workflow and how to control it’s behaviour. Explain in detail what parameters do and affect. Explain anything custom to your workflow that won’t be found elsewhere, or is non-standard.</p>
+<p><em>This page acts as a comprehensive reference on how to use your workflow. It describes the inputs to your workflow and how to control it’s behaviour. Explain in detail what parameters do and affect. Explain anything custom to your workflow that won’t be found elsewhere, or is non-standard.</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Consider if a cheat-sheet would be useful to users too.</p>
+<p><em>Consider if a cheat-sheet would be useful to users too.</em></p>
 
 
 
@@ -266,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

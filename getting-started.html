@@ -186,22 +186,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Let the user know how to get started with the workflow. This should mirror the section in your README, or the README should point them here.</p>
+<p><em>Let the user know how to get started with the workflow. This should mirror the section in your README, or the README should point them here.</em></p>
 <section id="prerequisites" class="level3">
 <h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
-<p>Define the software and hardware requirements needed to run the workflow.</p>
+<p><em>Define the software and hardware requirements needed to run the workflow.</em></p>
 <p>The workflow requires the following software:</p>
 <ul>
 <li><strong><a href="https://pixi.sh/latest/">Pixi</a></strong>: Creates the environment for running the workflow.</li>
 <li><strong>Git</strong>: Version control</li>
 <li>A container runtime: <strong>Docker</strong> (for local testing) or <strong>Singularity/Apptainer</strong> (recommended for HPC).</li>
 </ul>
-<p>Include expected resource usage on a typical dataset if possible, such as memory, CPU, runtime, and disk usage.</p>
+<p><em>Include expected resource usage on a typical dataset if possible, such as memory, CPU, runtime, and disk usage.</em></p>
 <p>This workflow can run on standard HPC nodes with at least 16 GB of RAM and 4 CPU cores. Typical runtime for a whole-exome sequencing sample pair is approximately 6-8 hours, depending on the dataset size and computational resources allocated.</p>
 </section>
 <section id="how-to-runinstall" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-runinstall">How to run/install</h3>
-<p>Supply a tiny dataset for testing purposes, along with example commands to run the workflow.</p>
+<p><em>Supply a tiny dataset for testing purposes, along with example commands to run the workflow.</em></p>
 <p><strong>Nextflow Example:</strong></p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Open a Pixi shell to create an environment for running the workflow.</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> shell</span>
@@ -288,7 +288,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

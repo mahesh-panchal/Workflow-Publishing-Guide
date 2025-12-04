@@ -155,8 +155,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Give an overview of what your pipeline does.</p>
-<p><a href="https://mermaid.js.org/syntax/flowchart.html">Mermaid flowchart diagrams</a> are an excellent way to communicate what your workflow does.</p>
+<p><em>Give an overview of what your pipeline does.</em></p>
+<p><em><a href="https://mermaid.js.org/syntax/flowchart.html">Mermaid flowchart diagrams</a> are an excellent way to communicate what your workflow does.</em></p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>If your workflow can be used in multiple ways, Metro maps, such as those <a href="https://nf-co.re/docs/guidelines/graphic_design/workflow_diagrams">used across nf-core</a> are an effective way to communicate those paths.</p>
+<p><em>If your workflow can be used in multiple ways, Metro maps, such as those <a href="https://nf-co.re/docs/guidelines/graphic_design/workflow_diagrams">used across nf-core</a> are an effective way to communicate those paths.</em></p>
 
 
 
@@ -250,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -186,20 +186,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This is the first page a user of your workflow will see. Instruct the users how to find what they need.</p>
-<p>Describe how the website is structured. Point new users to the Getting Started page.</p>
+<p><em>This is the first page a user of your workflow will see. Instruct the users how to find what they need.</em></p>
+<p><em>Describe how the website is structured. Point new users to the Getting Started page.</em></p>
 <section id="creating-this-website" class="level2">
-<h2 class="anchored" data-anchor-id="creating-this-website">Creating this website</h2>
-<p>This website was created using Quarto. The Pixi environment in this repository contains an environment to use Quarto.</p>
+<h2 class="anchored" data-anchor-id="creating-this-website"><em>Creating this website</em></h2>
+<p><em>This website was created using Quarto. The Pixi environment in this repository contains an environment to use Quarto.</em></p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> shell <span class="at">-e</span> website</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>In the root of the workflow repo, a docs folder has been created to store any kind of documentation relating to the workflow. For example, the source of this website, a copy of the publication, maintainer notes, and so on.</p>
-<p>Within the <code>docs</code> folder, we can then use Quarto to create the website source.</p>
+<p><em>In the root of the workflow repo, a docs folder has been created to store any kind of documentation relating to the workflow. For example, the source of this website, a copy of the publication, maintainer notes, and so on.</em></p>
+<p><em>Within the <code>docs</code> folder, we can then use Quarto to create the website source.</em></p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> docs</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> create project website docs-site-source</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The rest is up to you to fill in. See the other pages for suggestions on what the included documentation could contain.</p>
+<p><em>The rest is up to you to fill in. See the other pages for suggestions on what the included documentation could contain.</em></p>
 <section id="alternatives" class="level3">
-<h3 class="anchored" data-anchor-id="alternatives">Alternatives</h3>
-<p>Quarto is a fairly easy way to create a static website for your workflow. However, there are quite a few alternatives such as Mkdocs that are also suitable.</p>
+<h3 class="anchored" data-anchor-id="alternatives"><em>Alternatives</em></h3>
+<p><em>Quarto is a fairly easy way to create a static website for your workflow. However, there are quite a few alternatives such as Mkdocs that are also suitable.</em></p>
 
 
 </section>
@@ -279,7 +279,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

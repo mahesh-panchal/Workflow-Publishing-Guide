@@ -157,10 +157,10 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="what-is-the-your-workflow-name" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-the-your-workflow-name">What is the [Your Workflow Name]?</h2>
-<p>A summary of your workflow.</p>
+<p><em>A summary of your workflow.</em></p>
 <section id="citation-and-license" class="level3">
 <h3 class="anchored" data-anchor-id="citation-and-license">Citation and License</h3>
-<p>Include how to cite your work, and the license it’s under.</p>
+<p><em>Include how to cite your work, and the license it’s under.</em></p>
 </section>
 </section>
 <section id="who-should-use-this-documentation" class="level2">
@@ -263,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mahesh-panchal\.github\.io\/Workflow-Publishing-Guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
