@@ -13,6 +13,8 @@
 >
 > Instructions to create the website can be found on the website here: [https://mahesh-panchal.github.io/Workflow-Publishing-Guide/](https://mahesh-panchal.github.io/Workflow-Publishing-Guide/). The source code for the website is under the `docs/docs-site-source/` folder in this repository.
 >
+> A checklist to ensure your workflow is ready for publishing can be found in the [`PUBLISHING_CHECKLIST.md`](PUBLISHING_CHECKLIST.md) file in this repository.
+>
 > Further guidance:
 > * [SciLifeLab - Sharing code and workflows](https://data-guidelines.scilifelab.se/topics/sharing-code-workflows/)
 > * [SciLifeLab - Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md)
