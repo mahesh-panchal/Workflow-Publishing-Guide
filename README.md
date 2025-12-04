@@ -1,9 +1,15 @@
 # [Insert Workflow Name Here]
 
-If you use an acronym for your workflow, define it here in a short sentence.
+*If you use an acronym for your workflow, define it here in a short sentence.*
 
 > [!NOTE]
 > This is a guide on how to publish a workflow.
+>
+> *Italics* sections are instructions for you to fill in with your specific information.
+> Plain text sections are templates for you to use directly.
+>
+> If you include a dedicated website for your workflow (highly recommended), ensure that this README provides a concise overview and clear directions to the full documentation.
+> Much of the content can then be moved to the website, keeping the README focused on essential information (Quick Start, Documentation Link, Community and Support, License and Citation), and avoiding duplication.
 >
 > Further guidance:
 > * [SciLifeLab - Sharing code and workflows](https://data-guidelines.scilifelab.se/topics/sharing-code-workflows/)
@@ -13,11 +19,11 @@ If you use an acronym for your workflow, define it here in a short sentence.
 
 ## A pipeline for [State Main Purpose Here]
 
-Extra: Include [badges](https://github.com/badges/shields) to indicate build status, license, and version if applicable.
+*Extra: Include [badges](https://github.com/badges/shields) to indicate build status, license, and version if applicable.*
 
 ## Overview
 
-Provide an overview of the workflow's purpose and main features.
+*Provide an overview of the workflow's purpose and main features.*
 
 This workflow provides a scalable and portable workflow for **[Briefly state the main function, e.g., somatic variant calling from paired tumour-normal whole-exome sequencing data]**. It is designed to run efficiently on High-Performance Computing (HPC) and cloud infrastructures, adhering to current best practices for reproducibility.
 
@@ -31,24 +37,24 @@ The pipeline executes the following primary modules:
 
 ## Getting Started
 
-Let the user know how to get started with the workflow.
+*Let the user know how to get started with the workflow.*
 
 ### Prerequisites
 
-Define the software and hardware requirements needed to run the workflow.
+*Define the software and hardware requirements needed to run the workflow.*
 
 The workflow requires the following software:
 * **[Pixi](https://pixi.sh/latest/)**: Creates the environment for running the workflow.
 * **Git**: Version control
 * A container runtime: **Docker** (for local testing) or **Singularity/Apptainer** (recommended for HPC).
 
-Include expected resource usage on a typical dataset if possible, such as memory, CPU, runtime, and disk usage.
+*Include expected resource usage on a typical dataset if possible, such as memory, CPU, runtime, and disk usage.*
 
 This workflow can run on standard HPC nodes with at least 16 GB of RAM and 4 CPU cores. Typical runtime for a whole-exome sequencing sample pair is approximately 6-8 hours, depending on the dataset size and computational resources allocated.
 
 ### How to run/install
 
-Supply a tiny dataset for testing purposes, along with example commands to run the workflow.
+*Supply a tiny dataset for testing purposes, along with example commands to run the workflow.*
 
 **Nextflow Example:**
 ```bash
@@ -68,7 +74,7 @@ snakemake --use-conda -j 4 --configfile config/test_config.yaml
 
 ## Usage and Configuration
 
-Provide an overview of the main parameters and configuration options.
+*Provide an overview of the main parameters and configuration options.*
 
 ### Input Samplesheet
 
@@ -99,9 +105,10 @@ For a **complete reference of all parameters, tutorials, and advanced execution 
 
 ## 📂 Output Structure
 
-Selective usage of icons can help sections stand out.
+*Selective usage of icons can help sections stand out.*
 
-Summarize the main output files and their locations.
+*Summarize the main output files and their locations.*
+
 Final results are organized within the output directory (`results/`). Key files essential for downstream analysis are highlighted.
 
 ```
@@ -121,7 +128,7 @@ results/
 
 ## Community and Support
 
-Include how you want to work with your code users.
+*Include how you want to work with your code users.*
 
 We welcome questions, suggestions, and contributions from the scientific community.
 
@@ -143,7 +150,7 @@ The most common installation and usage questions are addressed in the dedicated 
 
 ## License and Citation
 
-Tell users how to cite your work and the licensing terms.
+*Tell users how to cite your work and the licensing terms.*
 
 ### Citation
 
